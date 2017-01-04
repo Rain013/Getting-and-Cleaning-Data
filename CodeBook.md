@@ -1,141 +1,156 @@
 #CodeBook
-List of Variables in tidy dataset :
 
-"1" "activityID"
 
-"2" "activityType"
+IDENTIFIERS:
 
-"3" "subjectID"
+ "activityID"
 
-"4" "tBodyAcc-mean()-X"
+ "subjectID"
+ 
+ LIST OF VARIABLES
 
-"5" "tBodyAcc-mean()-Y"
+ "tBodyAcc-mean()-X"
 
-"6" "tBodyAcc-mean()-Z"
+ "tBodyAcc-mean()-Y"
 
-"7" "tBodyAcc-std()-X"
+ "tBodyAcc-mean()-Z"
 
-"8" "tBodyAcc-std()-Y"
+ "tBodyAcc-std()-X"
 
-"9" "tBodyAcc-std()-Z"
+ "tBodyAcc-std()-Y"
 
-"10" "tGravityAcc-mean()-X"
+"tBodyAcc-std()-Z"
 
-"11" "tGravityAcc-mean()-Y"
+"tGravityAcc-mean()-X"
 
-"12" "tGravityAcc-mean()-Z"
+"tGravityAcc-mean()-Y"
 
-"13" "tGravityAcc-std()-X"
+"tGravityAcc-mean()-Z"
 
-"14" "tGravityAcc-std()-Y"
+"tGravityAcc-std()-X"
 
-"15" "tGravityAcc-std()-Z"
+"tGravityAcc-std()-Y"
 
-"16" "tBodyAccJerk-mean()-X"
+"tGravityAcc-std()-Z"
 
-"17" "tBodyAccJerk-mean()-Y"
+"tBodyAccJerk-mean()-X"
 
-"18" "tBodyAccJerk-mean()-Z"
+"tBodyAccJerk-mean()-Y"
 
-"19" "tBodyAccJerk-std()-X"
+"tBodyAccJerk-mean()-Z"
 
-"20" "tBodyAccJerk-std()-Y"
+"tBodyAccJerk-std()-X"
 
-"21" "tBodyAccJerk-std()-Z"
+"tBodyAccJerk-std()-Y"
 
-"22" "tBodyGyro-mean()-X"
+"tBodyAccJerk-std()-Z"
 
-"23" "tBodyGyro-mean()-Y"
+"tBodyGyro-mean()-X"
 
-"24" "tBodyGyro-mean()-Z"
+"tBodyGyro-mean()-Y"
 
-"25" "tBodyGyro-std()-X"
+"tBodyGyro-mean()-Z"
 
-"26" "tBodyGyro-std()-Y"
+"tBodyGyro-std()-X"
 
-"27" "tBodyGyro-std()-Z"
+"tBodyGyro-std()-Y"
 
-"28" "tBodyGyroJerk-mean()-X"
+"tBodyGyro-std()-Z"
 
-"29" "tBodyGyroJerk-mean()-Y"
+"tBodyGyroJerk-mean()-X"
 
-"30" "tBodyGyroJerk-mean()-Z"
+"tBodyGyroJerk-mean()-Y"
 
-"31" "tBodyGyroJerk-std()-X"
+"tBodyGyroJerk-mean()-Z"
 
-"32" "tBodyGyroJerk-std()-Y"
+"tBodyGyroJerk-std()-X"
 
-"33" "tBodyGyroJerk-std()-Z"
+"tBodyGyroJerk-std()-Y"
 
-"34" "tBodyAccMag-mean()"
+"tBodyGyroJerk-std()-Z"
 
-"35" "tBodyAccMag-std()"
+"tBodyAccMag-mean()"
 
-"36" "tGravityAccMag-mean()"
+"tBodyAccMag-std()"
 
-"37" "tGravityAccMag-std()"
+"tGravityAccMag-mean()"
 
-"38" "tBodyAccJerkMag-mean()"
+"tGravityAccMag-std()"
 
-"39" "tBodyAccJerkMag-std()"
+"tBodyAccJerkMag-mean()"
 
-"40" "tBodyGyroMag-mean()"
+"tBodyAccJerkMag-std()"
 
-"41" "tBodyGyroMag-std()"
+"tBodyGyroMag-mean()"
 
-"42" "tBodyGyroJerkMag-mean()"
+"tBodyGyroMag-std()"
 
-"43" "tBodyGyroJerkMag-std()"
+"tBodyGyroJerkMag-mean()"
 
-"44" "fBodyAcc-mean()-X"
+"tBodyGyroJerkMag-std()"
 
-"45" "fBodyAcc-mean()-Y"
+"fBodyAcc-mean()-X"
 
-"46" "fBodyAcc-mean()-Z"
+"fBodyAcc-mean()-Y"
 
-"47" "fBodyAcc-std()-X"
+"fBodyAcc-mean()-Z"
 
-"48" "fBodyAcc-std()-Y"
+"fBodyAcc-std()-X"
 
-"49" "fBodyAcc-std()-Z"
+"fBodyAcc-std()-Y"
 
-"50" "fBodyAccJerk-mean()-X"
+"fBodyAcc-std()-Z"
 
-"51" "fBodyAccJerk-mean()-Y"
+"fBodyAccJerk-mean()-X"
 
-"52" "fBodyAccJerk-mean()-Z"
+"fBodyAccJerk-mean()-Y"
 
-"53" "fBodyAccJerk-std()-X"
+"fBodyAccJerk-mean()-Z"
 
-"54" "fBodyAccJerk-std()-Y"
+"fBodyAccJerk-std()-X"
 
-"55" "fBodyAccJerk-std()-Z"
+"fBodyAccJerk-std()-Y"
 
-"56" "fBodyGyro-mean()-X"
+"fBodyAccJerk-std()-Z"
 
-"57" "fBodyGyro-mean()-Y"
+"fBodyGyro-mean()-X"
 
-"58" "fBodyGyro-mean()-Z"
+"fBodyGyro-mean()-Y"
 
-"59" "fBodyGyro-std()-X"
+"fBodyGyro-mean()-Z"
 
-"60" "fBodyGyro-std()-Y"
+"fBodyGyro-std()-X"
 
-"61" "fBodyGyro-std()-Z"
+"fBodyGyro-std()-Y"
 
-"62" "fBodyAccMag-mean()"
+"fBodyGyro-std()-Z"
 
-"63" "fBodyAccMag-std()"
+"fBodyAccMag-mean()"
 
-"64" "fBodyBodyAccJerkMag-mean()"
+"fBodyAccMag-std()"
 
-"65" "fBodyBodyAccJerkMag-std()"
+"fBodyBodyAccJerkMag-mean()"
 
-"66" "fBodyBodyGyroMag-mean()"
+"fBodyBodyAccJerkMag-std()"
 
-"67" "fBodyBodyGyroMag-std()"
+"fBodyBodyGyroMag-mean()"
 
-"68" "fBodyBodyGyroJerkMag-mean()"
+"fBodyBodyGyroMag-std()"
 
-"69" "fBodyBodyGyroJerkMag-std()"
+"fBodyBodyGyroJerkMag-mean()"
 
+"fBodyBodyGyroJerkMag-std()"
+
+ACTIVITY LABELS
+
+"WALKING"
+
+"WALKING_UPSTAIRS"
+
+"WALKING_DOWNSTAIRS"
+
+"SITTING"
+
+"STANDING"
+
+"LAYING"
