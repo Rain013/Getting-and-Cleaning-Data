@@ -49,7 +49,8 @@ run_analysis <- function(){
   tidydata <- merge(activityLabels, msdata, by = 'activityID')
 
 #Step11: Create a new tidy dataset
-   secdata <- aggregate(.~activityID+activityType, tidydata, mean)
-   write.table(secdata, file = "secdata1.txt", row.names = FALSE)    
+   secdata <- aggregate(. ~subjectID + activityID +activityType, tidydata, mean)
+   secdata <- secdata[order(secdata$subjectID, secdata$activityID, secdata$activityType),]
+   write.table(secdata, file = "secdata.csv", row.names = FALSE)    
   
   }
